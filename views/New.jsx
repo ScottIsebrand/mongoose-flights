@@ -9,9 +9,9 @@ function New() {
         {/* Note that names are the same as the keys of the properties of data array */}
         Airline: <input type="text" name="airline" />
         <br />
-        FlightNo: <input type="number" name="flightNo" />
+        Flight Num: <input type="number" name="flightNo" />
         <br />
-        Departs: <input type="date" name="departs" />
+        Departs: <input type="datetime-local" />
         <br />
         <input type="submit" value="Create new flight" />
       </form>
